@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.nav-link {
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -20px;
+  height: 3px;
+  background: orange;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.back{
+  background-image: url("./4ded7604d3911ea1be8df540baccf993e179dfb7.png");
+  background-size: cover;
+  
+}
+
+.salom{
+  position: relative;
+  top: 525px;
+  width: 100%;
+}
