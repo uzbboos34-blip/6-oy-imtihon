@@ -14,7 +14,6 @@ export default function Popup({ isOpen, onClose }) {
             >
                 &#x2715;
             </button> 
-
             <h2 className="text-[32px] font-bold leading-tight mb-2 text-[#232536]">
                 Have a Question ? <br/> Let's Get in Touch with us 👋
             </h2>
